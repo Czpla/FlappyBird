@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/flappy.css">
     <title>Flappy Bird</title>
 </head>
-<body>
-    
+<body class="content">
+    <h1>Flappy Bird</h1>
+    <div wm-flappy>
+        <img class="bird" src="./imgs/bird.png" alt="bird">
+        <div class="pair-of-barriers">
+            <div class="barriers">
+                <div class="body"></div>
+                <div class="border"></div>
+            </div>
+            <div class="barriers">
+                <div class="border"></div>
+                <div class="body"></div>
+            </div>
+        </div>
+        <div class="progress">100</div>
+    </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>
